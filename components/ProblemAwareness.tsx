@@ -38,6 +38,7 @@ const problems = [
 export default function ProblemAwareness() {
   return (
     <motion.section
+      id="problem"
       className="relative w-full bg-bg-section py-32"
       initial="hidden"
       whileInView="visible"

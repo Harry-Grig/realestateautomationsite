@@ -51,7 +51,10 @@ const solutions = [
 
 export default function Solution() {
   return (
-    <section className="relative w-full bg-bg-main py-32 overflow-hidden">
+    <section
+      id="solution"
+      className="relative w-full bg-bg-main py-32 overflow-hidden"
+    >
       {/* Background Accent (STATIC) */}
       <div className="pointer-events-none absolute inset-0 -z-10">
         <div className="absolute left-1/2 top-[-20%] h-[600px] w-[600px] -translate-x-1/2 rounded-full bg-electric/10 blur-[140px]" />
