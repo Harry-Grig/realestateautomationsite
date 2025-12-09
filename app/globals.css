@@ -41,6 +41,23 @@
   --radius-md: calc(var(--radius) - 2px);
   --radius-lg: var(--radius);
   --radius-xl: calc(var(--radius) + 4px);
+  /* Real Estate AI Theme Mapping */
+  --color-brand: var(--brand-primary);
+  --color-gold: var(--brand-accent);
+  --color-electric: var(--brand-secondary);
+
+  --color-bg-main: var(--bg-main);
+  --color-bg-section: var(--bg-section);
+  --color-bg-card-dark: var(--bg-card-dark);
+  --color-border-soft: var(--border-soft);
+
+  --color-text-heading: var(--text-heading);
+  --color-text-body: var(--text-body);
+  --color-text-muted-custom: var(--text-muted-custom);
+
+  --color-success: var(--status-success);
+  --color-warning: var(--status-warning);
+  --color-error: var(--status-error);
 }
 
 :root {
@@ -76,6 +93,30 @@
   --sidebar-accent-foreground: oklch(0.205 0 0);
   --sidebar-border: oklch(0.922 0 0);
   --sidebar-ring: oklch(0.708 0 0);
+  /* ==============================
+     REAL ESTATE AI BRAND SYSTEM
+     ============================== */
+
+  /* Brand Core */
+  --brand-primary: #0b1c2d; /* Deep Navy */
+  --brand-accent: #d4af37; /* Gold CTA */
+  --brand-secondary: #2f80ed; /* Electric Blue */
+
+  /* Background System */
+  --bg-main: #0a0a0a; /* Jet Black */
+  --bg-section: #111827; /* Charcoal */
+  --bg-card-dark: #161616; /* Soft Dark Gray */
+  --border-soft: #1f2933; /* Subtle Gray */
+
+  /* Text System */
+  --text-heading: #ffffff; /* Pure White */
+  --text-body: #c7cbd1; /* Light Gray */
+  --text-muted-custom: #8a8f98; /* Muted Gray */
+
+  /* Status Colors */
+  --status-success: #22c55e;
+  --status-warning: #f59e0b;
+  --status-error: #ef4444;
 }
 
 .dark {
@@ -110,6 +151,26 @@
   --sidebar-accent-foreground: oklch(0.985 0 0);
   --sidebar-border: oklch(1 0 0 / 10%);
   --sidebar-ring: oklch(0.556 0 0);
+  /* ==============================
+     REAL ESTATE AI BRAND (DARK)
+     ============================== */
+
+  --brand-primary: #0b1c2d;
+  --brand-accent: #d4af37;
+  --brand-secondary: #2f80ed;
+
+  --bg-main: #0a0a0a;
+  --bg-section: #111827;
+  --bg-card-dark: #161616;
+  --border-soft: #1f2933;
+
+  --text-heading: #ffffff;
+  --text-body: #c7cbd1;
+  --text-muted-custom: #8a8f98;
+
+  --status-success: #22c55e;
+  --status-warning: #f59e0b;
+  --status-error: #ef4444;
 }
 
 @layer base {
