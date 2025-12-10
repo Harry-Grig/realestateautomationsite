@@ -58,7 +58,7 @@ export default function Hero() {
               variant="outline"
               className="cursor-pointer border-border-soft text-text-body hover:bg-bg-section hover:text-text-heading"
             >
-              See How It Works
+              <a href="#how-it-works">See How It Works</a>
             </Button>
           </div>
 
